@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Portfolio = () => {
-    const portfolio = [
+const portfolio = () => {
+    const Portfolio = [
         {
             id: 1,
             src: 'Images/Netflix.jpeg'
@@ -36,7 +36,7 @@ const Portfolio = () => {
                     <p className="py-4">Check out some of my work right here</p>
                 </div>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-10 sm:px-0">
-                    {portfolio.map(({ id, src }) => (
+                    {Portfolio.map(({ id, src }) => (
                         <div
                             key={id}
                             className="shadow-md shadow-gray-600 rounded-lg flex flex-col h-[270px]" // Set a fixed height
@@ -58,4 +58,4 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+export default portfolio;
