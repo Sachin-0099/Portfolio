@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin />
         </>
       ),
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/sachin-singh-625230253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       style: 'rounded-tr-md',
     },
     {
