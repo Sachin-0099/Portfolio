@@ -30,7 +30,7 @@ const Nav = () => {
 
   return (
     
-    <div className="flex justify-between items-center w-full h-20 text-white fixed bg-black px-4">
+    <div className="flex justify-between items-center w-full h-20 text-white fixed bg-black px-4 z-10">
       <div>
         <h1 className="text-5xl font-signature ml-2">Sachin</h1>
       </div>
