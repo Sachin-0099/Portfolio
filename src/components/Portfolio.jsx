@@ -5,12 +5,21 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Portfolio = () => {
     const portfolioItems = [
-        { id: 1, src: "Images/Netflix.jpeg" },
+        { id: 7, src: "Images/ulinkit.png" },
+        { id: 9, src: "Images/Herbal.png" },
         { id: 2, src: "/Images/Jaehaerys.jpeg" },
+        { id: 6, src: "Images/Mission1m.png" },
         { id: 3, src: "Images/MealShare.webp" },
+        { id: 1, src: "Images/Netflix.jpeg" },
+       
+      
+
         { id: 4, src: "Images/MealShar.jpeg" },
         { id: 5, src: "Images/Apple.jpeg" },
-        { id: 6, src: "Images/Mission1m.png" },
+       
+       
+        { id: 8, src: "Images/Portfolio.png" },
+        
     ];
 
     const settings = {

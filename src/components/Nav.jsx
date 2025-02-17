@@ -26,13 +26,18 @@ const Nav = () => {
       id: 5,
       link: 'contact',
     },
+    {
+      id: 6,
+      link: 'Hire Me',
+    },
   ];
 
   return (
     
     <div className="flex justify-between items-center w-full h-20 text-white fixed bg-black px-4">
       <div>
-        <h1 className="text-5xl font-signature ml-2">Sachin</h1>
+
+        <h1 className="text-5xl font-signature ml-2">SamknS</h1>
       </div>
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
